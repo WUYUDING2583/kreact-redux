@@ -1,4 +1,4 @@
-[English]() | **简体中文**
+[English](https://github.com/yuyi2583/kreact-redux) | **简体中文**
 
 kreact-redux是模仿react-redux编写简易版组件，支持在类组件和函数组件中使用。实现了`connect`, `Provider`, `useSelector`, `useDispatch` 以及redux的`bindActionCreators`。
 
