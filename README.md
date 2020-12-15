@@ -1,4 +1,4 @@
-**English** | [简体中文](https://github.com/yuyi2583/kreact-redux/edit/master/README-zh_CN.md)
+**English** | [简体中文](https://github.com/yuyi2583/kreact-redux/blob/master/README-zh_CN.md)
 
 kreact-redux is a component imitates react-redux, support class component and function component. It implements `connect`, `Provider`, `useSelector`, `useDispatch` and redux `bindActionCreators`。
 
