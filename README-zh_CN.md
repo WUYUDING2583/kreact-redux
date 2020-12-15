@@ -1,10 +1,10 @@
-**English** | [简体中文]()
+[English]() | **简体中文**
 
-kreact-redux is a component imitates react-redux, support class component and function component. It implements `connect`, `Provider`, `useSelector`, `useDispatch` and redux `bindActionCreators`。
+kreact-redux是模仿react-redux编写简易版组件，支持在类组件和函数组件中使用。实现了`connect`, `Provider`, `useSelector`, `useDispatch` 以及redux的`bindActionCreators`。
 
-## Usage
+## 用法
 
-### Create store
+### 创建store
 
 ```javascript
 import { combineReducers, createStore } from "redux";
@@ -25,7 +25,7 @@ const store=createStore(combineReducers({count:counterReducer}));
 export default store;
 ```
 
-### Provide store
+### 提供store
 
 ```javascript
 //root\index.js
@@ -53,7 +53,7 @@ reportWebVitals();
 
 
 
-### class component
+### 类组件
 
 ```javascript
 import React, { Component } from "react";
@@ -95,7 +95,7 @@ const mapDispatchToProps = (dispatch) => {
 export default connect(mapStateToProps, mapDispatchToProps)(ReduxPage);
 ```
 
-### function component
+### 函数组件
 
 ```javascript
 import { useCallback } from "react";
@@ -122,7 +122,7 @@ export default function ReduxHooksPage(props) {
 }
 ```
 
-## Implementation
+## 实现
 
 ### bindActionCreators
 
